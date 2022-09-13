@@ -1,0 +1,213 @@
+*,
+body {
+  /* background-color: #1a1007; */
+  text-align: center;
+  border: 0;
+}
+
+/* cgvwrap */
+#cgvwrap {
+  position: relative;
+  width: 100%;
+  min-width: 1040px;
+}
+
+#cgvwrap .cgv-ad-wrap {
+  width: 100%;
+  height: 80px;
+  z-index: 101;
+  background-color: #1a1007;
+
+}
+
+#cgvwrap .cgv-ad-wrap .sect-head-ad {
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#cgvwrap .cgv-ad-wrap .sect-head-ad,
+.head,
+.im-wrap,
+#contents,
+.foot,
+.sect-smuse,
+.sect-cinfo {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.adreduce {
+  position: relative;
+  height: 80px;
+  margin: 0 auto;
+}
+
+iframe#TopBanner {
+  margin: 0 auto;
+  display: block;
+}
+
+/* header */
+.header {
+  position: relative;
+  z-index: 101
+}
+
+.header .contents {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header_content {
+  margin-bottom: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.header_content .contents {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 6px 25px 5px;
+  background-color: #fff
+}
+
+.header_content .contents h1 {
+  display: inline-flex;
+  align-items: flex-end;
+  height: 53px
+}
+
+.header_content .contents h1 a {
+  display: block;
+  float: left;
+  height: 100%
+}
+
+.header_content .contents h1 a img {
+  display: block;
+  width: auto;
+  height: 100%;
+  object-fit: contain
+}
+
+.header_content .contents h1 span {
+  font-weight: 300;
+  font-size: 16px;
+  color: #222;
+  letter-spacing: 0.313em;
+  line-height: 1.500em
+}
+
+.header_content .contents .memberInfo_wrap {
+  display: flex;
+  align-items: center
+}
+
+.header_content .contents .memberInfo_wrap li {
+  margin-left: 44px;
+  margin-top: 2px
+}
+
+.header_content .contents .memberInfo_wrap li:first-child {
+  margin-left: 0
+}
+
+.header_content .contents .memberInfo_wrap li a {
+  display: block;
+  position: relative;
+  padding-bottom: 19px
+}
+
+.header_content .contents .memberInfo_wrap li a img {
+  width: 36px;
+  height: 36px;
+}
+
+.header_content .contents .memberInfo_wrap li a span {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.462em;
+  white-space: nowrap;
+  transform: translate(-50%, 0)
+}
+
+.header_content .contents .memberInfo_wrap li.ad_partner {
+  width: 136px;
+  height: 39px;
+  margin-top: 5px
+}
+
+.header_content .contents .memberInfo_wrap li.ad_partner+li {
+  margin-left: 34px
+}
+
+.header_content .contents .memberInfo_wrap li.ad_partner a {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0
+}
+
+.header_content .contents .memberInfo_wrap li.ad_partner a img {
+  width: 100%;
+  height: 100%
+}
+
+/* nav */
+.nav{position:absolute; left:0; top:113px; width:100%; padding:5px 0; background-color:#fff}
+.nav:after{content:''; display:block; position:absolute; left:0; top:49px; width:100%; height:2px; background-color:#fb4357}
+.nav:before{content:''; display:block; position:absolute; left:0; bottom:0; width:100%; height:1px; background-color:#a58e8e}
+.nav .contents{position:relative}
+.nav .contents h1{display:none}
+  .nav_menu{display:inline-flex}
+  .nav_menu > li{width:162px; padding:20px 0}
+  .nav_menu > li:first-child{width:137px;}
+  .nav_menu > li:first-child .nav_overMenu{padding-left:0}
+  .nav_menu > li:first-child .nav_overMenu:before{content:none}
+  .nav_menu > li:last-child{width:195px}
+  .nav_menu > li:nth-child(2) > h2{left:80px}
+  .nav_menu > li:nth-child(3) > h2{left:160px}
+  .nav_menu > li:nth-child(4) > h2{left:240px}
+  .nav_menu > li:nth-child(5) > h2{left:335px}
+  .nav_menu > li:last-child > h2{left:430px}
+
+  .nav_menu > li > h2{position:absolute; top:7px}
+  .nav_menu > li > h2 > a{font-weight:500; font-size:16px; color:#222; line-height:1.500em}
+  .nav_menu > li > h2 > a strong{font-weight:700; color:#fb4357}
+    .nav_overMenu{display:none; position:relative; margin-bottom:8px; padding:25px 0 0 25px}
+    .nav_overMenu:before{content:''; position:absolute; left:0; top:45px; display:block; width:1px; height:250px; background-color:#eee; opacity:0.8}
+    .nav_overMenu h3{height:auto; margin:0; line-height:1em; text-align:left; background-image:none}
+    .nav_overMenu a:hover{text-decoration:underline}
+    .nav_overMenu dt{padding-top:18px}
+    .nav_overMenu dt a{font-weight:700; font-size:14px; color:#222; line-height:1.429em}
+    .nav_overMenu dt + dd{margin-top:8px}
+    .nav_overMenu dd a{font-weight:400; font-size:14px; color:#666; line-height:2.143em}
+    .nav_overMenu dd a.arrowR:after{content:''; display:inline-flex; align-self:center; width:5px; height:9px; margin-left:4px; background:transparent url('./../images/common/ico/arrowR_5x9.png') center/5px 9px scroll no-repeat}
+
+    
+		.nav.active .nav_overMenu{display:block}
+
+		/* .nav.fixed{position:fixed; top:0px; min-width:1040px; padding:10px 0}
+		.nav.fixed:after{top:0; bottom:auto; height:60px; background-image:linear-gradient(to right, rgb(215, 67, 87), rgb(241,79,58) 59%, rgb(239, 100, 47)); z-index:1}
+		.nav.fixed .contents{z-index:2}
+		.nav.fixed .contents h1{display:block; position:absolute; left:0; top:1px; width:70px; height:32px; z-index:3}
+		.nav.fixed .contents h1 a{display:block} 
+		.nav.fixed .contents h1 a img{width:100%; height:100%}
+		.nav.fixed .contents .nav_menu > li:first-child > h2{left:120px}
+		.nav.fixed .contents .nav_menu > li:nth-child(2) > h2{left:200px}
+		.nav.fixed .contents .nav_menu > li:nth-child(3) > h2{left:280px}
+		.nav.fixed .contents .nav_menu > li:nth-child(4) > h2{left:360px}
+		.nav.fixed .contents .nav_menu > li:nth-child(5) > h2{left:455px}
+		.nav.fixed .contents .nav_menu > li:last-child > h2{left:550px}
+		.nav.fixed .contents .nav_menu > li > h2 > a{color:#fff}
+		.nav.fixed .contents .nav_menu > li > h2 > a strong{color:#fff}
+		.nav.fixed .contents .totalSearch_wrap:before,
+		.nav.fixed .contents .totalSearch_wrap:after{background-color:#000; opacity:0.2}
+		.nav.fixed .contents .totalSearch_wrap label input[type="text"]{color:#fff; background-color:transparent}
+		.nav.fixed .contents .totalSearch_wrap .btn_totalSearch{background:transparent url('./../images/common/ico/search_w.png') center center/26px scroll no-repeat}
+		.nav.fixed .contents .totalSearchAutocomplete_wrap{position:absolute; left:0; top:49px} */
