@@ -6,6 +6,10 @@ $(document).ready(function () {
     $(this).find(".nav_overMenu").stop().slideToggle(300)
   });
 
+  $(".closebtn").click(function(){
+    $(".adreduce").hide();
+  })
+
 //메인프레임 사운드, 플레이
   let movieSelectionVideoObj = $('.video_wrap video')[0];
   $('.btn_movieSelection_soundOnOff').on({
